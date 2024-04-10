@@ -1,0 +1,401 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Project390
+</name>
+</assembly>
+<members>
+<member name="T:Project390.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Project390.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Project390.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Project390.My.Resources.Resources.pf_location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Project390.My.Resources.Resources.pf_location1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Project390.My.Resources.Resources.pf_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Project390.My.Resources.Resources.pf_logo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Project390.My.Resources.Resources.tester_gradient">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Project390.masterDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Project390.masterDataSet.RegressionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Project390.masterDataSet.RegressionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Project390.masterDataSet.RegressionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Project390.masterDataSetTableAdapters.RegressionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Project390.masterDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Project390.masterDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Project390.masterDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Project390.masterDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Project390.masterDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Project390.masterDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Project390.masterDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Project390.masterDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Project390.masterDataSetTableAdapters.TableAdapterManager.UpdateAll(Project390.masterDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Project390.masterDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Project390.masterDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Project390.projectDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.PlanetFitnessDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.arrayDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.COURSEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.Customer_TDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.GRADE_REPORTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.Order_Line_TDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.Order_TDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.PREREQUISITEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.Product_Line_TDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.Product_TDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.SECTIONDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.STUDENTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.PlanetFitnessDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.arrayRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.COURSERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.Customer_TRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.GRADE_REPORTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.Order_Line_TRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.Order_TRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.PREREQUISITERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.Product_Line_TRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.Product_TRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.SECTIONRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.STUDENTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.PlanetFitnessDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.arrayRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.COURSERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.Customer_TRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.GRADE_REPORTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.Order_Line_TRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.Order_TRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.PREREQUISITERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.Product_Line_TRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.Product_TRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.SECTIONRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Project390.projectDataSet.STUDENTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Project390.projectDataSetTableAdapters.PlanetFitnessDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Project390.projectDataSetTableAdapters.arrayTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Project390.projectDataSetTableAdapters.COURSETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Project390.projectDataSetTableAdapters.Customer_TTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Project390.projectDataSetTableAdapters.GRADE_REPORTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Project390.projectDataSetTableAdapters.Order_Line_TTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Project390.projectDataSetTableAdapters.Order_TTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Project390.projectDataSetTableAdapters.PREREQUISITETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Project390.projectDataSetTableAdapters.Product_Line_TTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Project390.projectDataSetTableAdapters.Product_TTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Project390.projectDataSetTableAdapters.SECTIONTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Project390.projectDataSetTableAdapters.STUDENTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Project390.projectDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Project390.projectDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Project390.projectDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Project390.projectDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Project390.projectDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Project390.projectDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Project390.projectDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Project390.projectDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Project390.projectDataSetTableAdapters.TableAdapterManager.UpdateAll(Project390.projectDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Project390.projectDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Project390.projectDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

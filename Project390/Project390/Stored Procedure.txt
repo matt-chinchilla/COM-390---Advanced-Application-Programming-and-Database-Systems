@@ -1,0 +1,5 @@
+CREATE or ALTER PROCEDURE sp_InsertNewDay (@closingprice REAL, @daysuntil REAL, @numlikes REAL)
+AS
+BEGIN
+INSERT INTO Regression VALUES (@closingprice, @daysuntil, @numlikes)
+END

@@ -1,0 +1,15 @@
+C:\Users\chiri\source\repos\Project390\Project390\obj\Debug\Project390.vbprojAssemblyReference.cache
+C:\Users\chiri\source\repos\Project390\Project390\obj\Debug\Project390.Form1.resources
+C:\Users\chiri\source\repos\Project390\Project390\obj\Debug\Project390.Resources.resources
+C:\Users\chiri\source\repos\Project390\Project390\obj\Debug\Project390.vbproj.GenerateResource.cache
+C:\Users\chiri\source\repos\Project390\Project390\obj\Debug\Project390.vbproj.CoreCompileInputs.cache
+C:\Users\chiri\source\repos\Project390\Project390\bin\Debug\Project390.exe.config
+C:\Users\chiri\source\repos\Project390\Project390\bin\Debug\Project390.exe
+C:\Users\chiri\source\repos\Project390\Project390\bin\Debug\Project390.pdb
+C:\Users\chiri\source\repos\Project390\Project390\bin\Debug\Project390.xml
+C:\Users\chiri\source\repos\Project390\Project390\obj\Debug\Project390.exe
+C:\Users\chiri\source\repos\Project390\Project390\obj\Debug\Project390.xml
+C:\Users\chiri\source\repos\Project390\Project390\obj\Debug\Project390.pdb
+C:\Users\chiri\source\repos\Project390\Project390\obj\Debug\Project390.RegressionExample.resources
+C:\Users\chiri\source\repos\Project390\Project390\obj\Debug\Project390.AddNewData.resources
+C:\Users\chiri\source\repos\Project390\Project390\obj\Debug\Project390.DataTester.resources
